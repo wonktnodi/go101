@@ -1,8 +1,10 @@
 package main
 
-import tmpl "github.com/wonktnodi/go101/tutorials/template"
+import (
+    "github.com/wonktnodi/go101/tutorials/unsafe"
+)
 
 func main() {
     //tutorials.MultipleTmpl()
-    tmpl.Complex()
+    unsafe.UnsafeDemo()
 }
